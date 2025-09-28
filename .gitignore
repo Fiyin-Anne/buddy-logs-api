@@ -1,0 +1,66 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.uv/
+
+# ------------------------------
+# Django
+# ------------------------------
+# SQLite database
+db.sqlite3
+db.sqlite3-journal
+
+# Django static and media files
+staticfiles/
+media/
+static/
+*.log
+
+# Local settings (if you use one)
+local_settings.py
+
+# ------------------------------
+# Environment & secrets
+# ------------------------------
+.env
+*.env
+.env.*
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ------------------------------
+# OS-specific
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# UV / Poetry / Build system
+# ------------------------------
+# (You can commit pyproject.toml and uv.lock)
+__pypackages__/
+build/
+dist/
+*.egg-info/
+.eggs/
